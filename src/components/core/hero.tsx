@@ -37,7 +37,7 @@ export default function Hero() {
             <Link href="/calendario">
               <Button
                 size="lg"
-                className="bg-sky-500 hover:bg-sky-400 text-black font-semibold rounded-2xl"
+                className="bg-sky-500 hover:bg-sky-400 text-white font-semibold rounded-2xl cursor-pointer"
               >
                 Ver calendario
               </Button>
@@ -46,7 +46,7 @@ export default function Hero() {
               <Button
                 size="lg"
                 variant="outline"
-                className="rounded-2xl border-sky-500/70 text-black hover:text-black hover:bg-sky-300"
+                className="rounded-2xl border-sky-500/70 text-black hover:text-black hover:bg-sky-300 cursor-pointer"
               >
                 Postúlate para una charla
               </Button>
